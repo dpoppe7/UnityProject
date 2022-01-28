@@ -23,7 +23,8 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Play(){
-        SceneManagmenet.LoadScene("Scene1");
+        Debug.Log("Play");
+        SceneManager.LoadScene("Scene1");
     }
 }
 
